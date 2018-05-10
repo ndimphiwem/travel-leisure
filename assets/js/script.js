@@ -11,8 +11,8 @@ $(document).ready(function () {
         doAnimations($animatingElements);
     });
     $('.slider').slick({
-        autoplay: false,
-        autoplaySpeed: 6500,
+        autoplay: true,
+        autoplaySpeed: 2500,
         dots: false,
         fade: true,
         arrows: false

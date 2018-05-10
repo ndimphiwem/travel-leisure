@@ -93,10 +93,11 @@ body {
     padding: 10px 15px;
     font-weight: 600;
     background-size: cover !important;
-    margin: 0 5px;
+    margin: 0 2.5px;
 
     @media (min-width: 412px) {
         padding: 10px 20px;
+        margin: 0 5px;
     }
 }
 
