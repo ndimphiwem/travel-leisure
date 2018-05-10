@@ -12,7 +12,7 @@ $(document).ready(function () {
     });
     $('.slider').slick({
         autoplay: true,
-        autoplaySpeed: 4500,
+        autoplaySpeed: 7500,
         dots: false,
         fade: true,
         arrows: false
