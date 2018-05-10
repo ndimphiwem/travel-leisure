@@ -1,0 +1,176 @@
+@font-face {
+    font-family: 'League Gothic';
+    src: url('../fonts/leaguegothic-regular-webfont.eot');
+    src: url('../fonts/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/leaguegothic-regular-webfont.woff') format('woff'),
+         url('../fonts/leaguegothic-regular-webfont.ttf') format('truetype'),
+         url('../fonts/leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');
+
+}
+
+@import url('https://www.fontify.me/wf/2bd0da8fe5c1eee7a3b5be10f66dfeb5');
+
+body {
+    background: $black;
+    color: $white;
+    font-family: $phagspa;
+}
+
+.header-container {
+    background: $black;
+    padding: 30px 30px;
+}
+
+.header-logo {
+    margin-left: auto;
+    margin-right: auto;
+
+    @media (min-width: 992px) {
+        margin-left: unset;
+        margin-right: unset;
+    }
+}
+
+.slider {
+    padding: 0;
+}
+
+.travel-slide {
+    height: 70vh;
+    text-transform: uppercase;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+
+    @media (min-width: 768px) {
+
+    }
+
+    @media (min-width: 1024px) {
+        justify-content: flex-start;
+    }
+
+    .slide-cta-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        @media (min-width: 1024px){
+            margin-left: 50px;
+        }
+    }
+}
+
+.travel-slide:focus {
+    outline: 0;
+}
+
+.slide-heading {
+    font-size: 4em;
+    font-family: 'League Gothic';
+    font-weight: 100;
+    text-shadow: 3px 3px 5px $black;
+    text-align: center;
+}
+
+.slide-copy {
+    font-size: 1.5em;
+    text-shadow: 3px 3px 5px $black;
+    color: $gold;
+    font-weight: 600;
+    padding: 5px 50px;
+    text-align: center;
+}
+
+.cta-row {
+    margin-top: 50px;
+}
+
+.slide-cta-btn {
+    border-radius: 0;
+    box-shadow: inset 1px 1px 5px 2px rgba(255,255,255,0.3);
+    font-size: 1.5em;
+    padding: 10px 15px;
+    font-weight: 600;
+    background-size: cover !important;
+    margin: 0 5px;
+
+    @media (min-width: 412px) {
+        padding: 10px 20px;
+    }
+}
+
+.slide-cta-btn.book-now {
+    background: url(../img/button-blue.png);
+}
+
+.slide-cta-btn.more-info {
+    background: url(../img/button-green.png);
+}
+
+.step-panel {
+    padding: 15px 10px;
+    display: flex;
+    align-items: center;
+
+    .step-number-text {
+        color: $gold;
+        margin-top:0;
+        font-size: 6em;
+        text-align: right;
+        font-weight: 600;
+        text-shadow: 1px 1px 5px 2px rgba($gold,0.3);
+    }
+
+    .step-copy-text {
+        font-size: 1.5em;
+    }
+}
+
+.step-panel:last-child {
+    border: 0;
+}
+
+
+
+// .step-panel::after {
+
+//     @media (min-width: 992px){
+//         content: '>';
+//         font-size: 5em;
+//         margin-left: -20px;
+//         margin-right: -20px;
+//     }
+// }
+
+.benefits-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .benefits-heading {
+        margin-bottom: 20px;
+        color: $gold;
+        font-weight: 600;
+    }
+}
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-delay: 1s;
+}
+
+.weather-widget-container {
+    margin-top: 30px;
+    text-align: center;
+
+    @media (min-width: 992px) {
+        margin-top: 0;
+        text-align: right;
+        position: absolute;
+        top: 275px;
+    }
+}

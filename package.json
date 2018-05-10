@@ -1,0 +1,29 @@
+{
+  "name": "Travel-Leisure",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.5.1",
+    "gulp-wait": "0.0.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.0.4",
+    "gulp-concat-css": "^2.3.0",
+    "gulp-concat-sourcemap": "^1.3.1",
+    "gulp-sass": "^3.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "",
+  "homepage": ""
+}
