@@ -34,6 +34,11 @@ $(document).ready(function () {
         });
     }
 
-    //The following function initializes the AOS scrolling animation library
-    AOS.init();
+
+});
+
+$(window).load(function(){
+
+    $('.weather-widget-container').yahooWeather();
+
 });
